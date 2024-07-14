@@ -1,0 +1,30 @@
+/* src/FriendList.css */
+.friend-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* src/FriendListItem.css */
+.friend-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.friend-list-item img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend-list-item .status {
+    margin-left: auto;
+}
+
+.status.online {
+    color: green;
+}
+
+.status.offline {
+    color: red;
+}
